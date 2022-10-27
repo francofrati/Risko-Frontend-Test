@@ -51,11 +51,38 @@ a {
   }
 }
 
-select option{
+select option {
   background-color: white;
   background: white;
 }
-select{
+
+select {
   background-color: white;
   background: white;
+}
+
+tr {
+  text-align: left;
+}
+
+table tr th {
+  background-color: #EBF2FE;
+  color: #6b7085;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+table tr th:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  padding-left: 15px;
+}
+
+table tr th:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+table tr td:first-child {
+  padding-left: 15px;
 }

@@ -91,9 +91,9 @@ const options = {
 const Chart = () => {
 
     return (
-        <div className="md:px-[35px] w-full py-[20px] px-[10px] md:py-[60px] md:w-[65%] ">{/*El width de este div iria en su componente padre*/}
+        <div className="md:px-[35px] w-full py-[20px] px-[10px] md:py-[60px]  ">{/*El width de este div iria en su componente padre*/}
             <div className="w-full flex justify-between items-center">
-                <span className="font-semibold md:text-[1.5rem]">Performance</span>
+                <span className="font-semibold md:text-[1.5rem] text-[#575a66]">Performance</span>
                 <div className="flex justify-center items-center">
                     <select className="px-[10px] py-[5px] rounded-[10px] md:w-[200px] bg-white border-[2px] text-[#666666] font-semibold border-[#666666]"> 
                         <option value="none">Filtrar por</option>
